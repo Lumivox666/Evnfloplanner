@@ -1,0 +1,15 @@
+{
+  "name": "evnflo-projects",
+  "version": "1.6.0",
+  "private": true,
+  "description": "EvnFlo Projects with searchable report archive, PDF downloads, and responsive subtask cards",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check app.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
